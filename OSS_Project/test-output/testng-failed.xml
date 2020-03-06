@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SelCat(failed)">
+    <classes>
+      <class name="Girish.OSS.testcases.POM_PM_SC_TC">
+        <methods>
+          <include name="open"/>
+          <include name="verSCDrop"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Girish.OSS.testcases.POM_PM_SC_TC -->
+    </classes>
+  </test> <!-- SelCat(failed) -->
+  <test thread-count="5" name="SelStk(failed)">
+    <classes>
+      <class name="Girish.OSS.testcases.POM_PM_SS_TC">
+        <methods>
+          <include name="verSSDrop"/>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Girish.OSS.testcases.POM_PM_SS_TC -->
+    </classes>
+  </test> <!-- SelStk(failed) -->
+</suite> <!-- Failed suite [Suite] -->
